@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Source') {
             steps {
-                sh '/usr/local/bin/git --version
+                sh '/usr/local/bin/git --version'
                 // Fetch code from a GitHub repository
                 git url:'https://github.com/Nav9n/angular-admin.git'
                 
