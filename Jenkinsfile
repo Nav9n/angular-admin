@@ -1,6 +1,6 @@
 pipeline {
     agent any
-  tools {
+    tools {
         // Use the configured Git tool
         git "git"
     }
