@@ -1,6 +1,9 @@
 pipeline {
     agent any
-  
+  tools {
+        // Use the configured Git tool
+        git "Custom Git"
+    }
     stages {
         stage('Source') {
             steps {
