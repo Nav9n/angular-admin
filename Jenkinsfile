@@ -1,9 +1,6 @@
 pipeline {
     agent any
-    tools {
-        // Select the specific Git installation
-        git "jgit"
-    }
+  
     stages {
         stage('Source') {
             steps {
