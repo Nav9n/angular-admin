@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         // Select the specific Git installation
-        git "default"
+        git "Default"
     }
     stages {
         stage('Source') {
