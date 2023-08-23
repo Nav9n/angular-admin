@@ -8,7 +8,8 @@ pipeline {
                 git url: 'https://github.com/Nav9n/angular-admin.git'
 
                 // Fetch code from a GitHub repository using explicit Git executable path
-                sh '/usr/local/bin/git clone https://github.com/Nav9n/angular-admin.git'
+                sh '/usr/bin/git clone https://github.com/Nav9n/angular-admin.git .'
+
                 
                 // Run npm install to install node modules
                 sh 'npm install'
